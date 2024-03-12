@@ -2,12 +2,14 @@
 This repository contains code for fine-tuning the Gemma model on a dataset of Arabic quotes. The Gemma model is an open-source language model developed by Google.
 # installation
 To run the code in this repository, you will need to install the required dependencies. You can install them using pip:
-`!pip install -q -U bitsandbytes==0.42.0`
-`!pip install -q -U peft==0.8.2`
-`!pip install -q -U trl==0.7.10`
-`!pip install -q -U accelerate==0.27.1`
-`!pip install -q -U datasets==2.17.0`
-`!pip install -q -U transformers==4.38.0`
+```command
+!pip install -q -U bitsandbytes==0.42.0
+!pip install -q -U peft==0.8.2
+!pip install -q -U trl==0.7.10
+!pip install -q -U accelerate==0.27.1
+!pip install -q -U datasets==2.17.0
+!pip install -q -U transformers==4.38.0
+```
 # Usage
 1. Clone this repository to your local machine.
 2. Open the provided Google Colab notebook.
